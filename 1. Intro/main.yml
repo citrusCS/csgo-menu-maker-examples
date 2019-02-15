@@ -1,0 +1,4 @@
+tree:
+    Message:
+        type: generic.message
+        text: "Congratulations! You just loaded this script."
