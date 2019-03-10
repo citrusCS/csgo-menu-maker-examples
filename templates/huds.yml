@@ -1,0 +1,37 @@
+tree:
+    HUDs:
+        type: config.huds
+        presets:
+            # For a full list of options and their descriptions:
+            # https://git.io/fhhrr
+            # Remember that any values not specified will be replaced by their
+            # defaults!
+            Regular:
+                scale: 0.9
+            
+            Navigator:
+                bomb_under_radar: 0
+                radar_centered: 1
+                radar_rotate: 0
+                radar_icon_scale: 0.8
+            
+            Recolored:
+                inherit: Regular
+                color_preset: 2
+            
+            Compact:
+                healthammo_style: 1
+                playercount_pos: 1
+                playercount_showcount: 1
+
+            Everything:
+                scale: 0.7
+                bomb_under_radar: 1
+                radar_centered: 0
+                radar_rotate: 1
+                radar_icon_scale: 0.6
+                radar_scale: 0.7
+                healthammo_style: 0
+                playercount_pos: 0
+                playercount_showcount: 0
+                color_preset: 5

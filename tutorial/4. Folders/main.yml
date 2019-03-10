@@ -1,0 +1,8 @@
+tree:
+    Comp1: "cheats.noclip"
+    Fold1:
+        type: "folder"
+        desc: "Bot Stuff"
+        tree:
+            NestComp1: "bots.addct"
+            NestComp2: "bots.addt"

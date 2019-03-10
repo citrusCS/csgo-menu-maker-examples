@@ -1,0 +1,51 @@
+tree:
+    Viewmodels:
+        type: config.viewmodels
+        presets:
+            # For a full list of options and their descriptions:
+            # https://git.io/fhhrq
+            # Remember that any values not specified will be replaced by their
+            # defaults!
+            Regular:
+                offset:
+                    - 2.5
+                    - 0
+                    - -1.5
+                fov: 60
+                
+            Gangster:
+                offset:
+                    - 1.5
+                    - 2
+                    - 2
+                fov: 68
+                
+            Quake:
+                offset:
+                    - -2
+                    - -2
+                    - -2
+                fov: 54
+                
+            Responsive:
+                inherit: Regular
+                bob_lower: 5
+                bob_lat: 2
+                bob_vert: 2
+                shift_left: 2
+                shift_right: 2
+                recoil: 1
+                
+            Everything:
+                shift_left: 1.5
+                shift_right: 0.75
+                fov: 54
+                offset:
+                    - 2.5
+                    - 0
+                    - -1.5
+                recoil: 1
+                bob_lower: 21
+                bob_lat: 0.4
+                bob_vert: 0.25
+                bob_cycle: 0.98

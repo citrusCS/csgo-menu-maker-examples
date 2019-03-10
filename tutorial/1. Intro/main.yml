@@ -1,0 +1,4 @@
+tree:
+    Message:
+        type: "generic.message"
+        text: "Hello World!"

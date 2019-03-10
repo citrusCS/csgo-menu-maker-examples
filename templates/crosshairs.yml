@@ -1,0 +1,67 @@
+tree:
+    Crosshairs:
+        type: config.crosshairs
+        presets:
+            # For a full list of options and their descriptions:
+            # https://git.io/fhhwU
+            # Remember that any values not specified will be replaced by their
+            # defaults!
+            General/Blue:
+                drawoutline: 0
+                size: 5
+                style: 2
+                thickness: 1
+                fixedgap: -3
+                color:
+                    - 0
+                    - 255
+                    - 255
+                    
+            General/Green:
+                inherit: General/Blue
+                color:
+                    - 0
+                    - 255
+                    - 0
+                    
+            Pistols:
+                size: 3
+                style: 2
+                thickness: 0.5
+                fixedgap: -2
+                color:
+                    - 255
+                    - 0
+                    - 255
+                t_shape: 1
+                
+            "1.6":
+                size: 6
+                style: 3
+                gap: 14
+                thickness: 0.5
+                fixedgap: 14
+                color:
+                    - 0
+                    - 200
+                    - 0
+                    
+            Everything:
+                alpha: 200
+                color: [0, 255, 255]
+                dot: 1
+                drawoutline: 0
+                dynamic_maxdist_splitratio: 0
+                dynamic_splitalpha_innermod: 1
+                dynamic_splitdist: 7
+                fixedgap: -3
+                gap: -1
+                gap_useweaponvalue: 0
+                outline_thickness: 1
+                size: 5
+                sniper_show_normal_inaccuracy: 0
+                sniper_width: 1
+                style: 2
+                thickness: 1
+                t_shape: 0
+                usealpha: 1
