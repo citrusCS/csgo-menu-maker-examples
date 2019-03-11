@@ -1,0 +1,78 @@
+tree:
+    Crosshairs:
+        type: config.crosshairs
+        presets:
+            General:
+                drawoutline: 0
+                size: 10
+                style: 2
+                thickness: 2
+                fixedgap: -3
+                color:
+                    - 0
+                    - 255
+                    - 255
+            Pistol Rounds:
+                drawoutline: 0
+                size: 8
+                style: 2
+                thickness: 2
+                fixedgap: -2
+                color:
+                    - 0
+                    - 255
+                    - 0
+                t_shape: 1
+            Precision:
+                drawoutline: 1
+                size: 5
+                style: 2
+                thickness: 1
+                color:
+                    - 255
+                    - 255
+                    - 0
+    Viewmodels:
+        type: config.viewmodels
+        presets:
+            Regular:
+                offset:
+                    - 2.5
+                    - 0
+                    - -1.5
+                fov: 60
+                
+            Gangster:
+                offset:
+                    - 1.5
+                    - 2
+                    - 2
+                fov: 68
+                
+            Quake:
+                offset:
+                    - -2
+                    - -2
+                    - -2
+                fov: 54
+    HUDs:
+        type: config.huds
+        presets:
+            Regular:
+                scale: 0.9
+            Navigator:
+                bomb_under_radar: 0
+                radar_centered: 1
+                radar_rotate: 0
+                radar_icon_scale: 0.8
+            Recolored:
+                inherit: Regular
+                color_preset: 2
+            Compact:
+                healthammo_style: 1
+                playercount_pos: 1
+                playercount_showcount: 1
+    Master Volume: sound.volume.master
+    Voice Volume: sound.volume.voice
+    Net Graph: debug.netgraph
+    Grenade Trajectory: cheats.grenadetrajectory
