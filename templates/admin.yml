@@ -1,0 +1,108 @@
+tree:
+    Cheats:
+        type: folder
+        tree:
+            - cheats.noclip
+            - cheats.noclip.speed
+            - cheats.god
+            - cheats.gods
+            - cheats.buddha
+            - cheats.explode
+            - cheats.giveammo
+            - cheats.fogenable
+            - cheats.recoilscale
+            - cheats.timescale
+            - cheats.thirdperson
+            - cheats.grenadetrajectory
+            - cheats.drawhud
+            - cheats.parachute
+            - cheats.hurtme
+            - cheats.gravity
+            - cheats.crosshairrecoil
+            - cheats.drawviewmodel
+            - cheats.enable
+    Bots:
+        type: folder
+        tree:
+            - bots.quota
+            - bots.addct
+            - bots.addt
+            - bots.kick
+            - bots.kill
+            - bots.kill.ct
+            - bots.kill.t
+            - bots.mimic
+            - bots.zombie
+            - bots.jointeam
+            - bots.randombuy
+            - bots.place
+            - bots.ignoreplayers
+            - bots.stop
+            - bots.allweapons
+            - bots.allowrogues
+            - bots.chatter
+            - bots.difficulty
+            - bots.dontshoot
+            - bots.freeze
+    Multiplayer:
+        type: folder
+        tree: 
+            - multiplayer.friendlyfire
+            - multiplayer.autokick
+            - multiplayer.buyanywhere
+            - multiplayer.dropknives
+            - multiplayer.c4enabled
+            - multiplayer.randomspawns
+            - multiplayer.restartgame
+            - multiplayer.forcewin
+            - multiplayer.forcerespawn
+            - multiplayer.teams.scramble
+            - multiplayer.teams.swap
+            - multiplayer.teams.switch
+            - multiplayer.teams.odds
+            - multiplayer.tkpunish
+            - multiplayer.warmup.start
+            - multiplayer.warmup.pause
+            - multiplayer.warmup.end
+            - multiplayer.warmup.freezetime
+    Server:
+        type: folder
+        tree: 
+            - server.bhop
+            - server.surf
+            - server.coaching
+            - server.deadtalk
+            - server.falldmg
+            - server.nai
+            - 
+                type: server.changemap
+                maps:
+                    - de_dust2
+                    - de_mirage
+                    - de_overpass
+                    - de_nuke
+                    - de_inferno
+                    - de_train
+                    - de_cbble
+                    - de_canals
+                    - de_subzero
+                    - de_shortdust
+                    - de_shortnuke
+                    - de_shorttrain
+                    - cs_agency
+                    - cs_assault
+                    - cs_italy
+                    - cs_office
+                    - de_austria
+                    - de_biome
+                    - ar_baggage
+                    - de_lake
+                    - ar_monastery
+                    - de_safehouse
+                    - ar_shoots
+                    - de_stmarc
+                    - de_bank
+                    - de_sugarcane
+                    - ar_dizzy
+                    - gd_rialto
+                    - de_cache
